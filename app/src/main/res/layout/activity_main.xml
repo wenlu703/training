@@ -37,9 +37,12 @@
     </LinearLayout>
 
     <!-- 播放控制 -->
+
+    <!-- 状态显示 -->
+
     <LinearLayout
-        android:layout_width="388dp"
-        android:layout_height="148dp"
+        android:layout_width="386dp"
+        android:layout_height="283dp"
         android:layout_marginBottom="24dp"
         android:gravity="center"
         android:orientation="horizontal">
@@ -49,7 +52,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
-            android:text="播放" />
+            android:text="播放一次" />
 
         <Button
             android:id="@+id/btnStopPlay"
@@ -58,8 +61,6 @@
             android:text="停止播放" />
 
     </LinearLayout>
-
-    <!-- 状态显示 -->
 
     <TextView
         android:id="@+id/tvStatus"
